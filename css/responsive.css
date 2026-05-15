@@ -1,0 +1,35 @@
+@media(max-width:991px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    padding-top:150px;
+}
+
+.hero-content h1{
+    font-size:50px;
+}
+
+.hero-image img{
+    width:300px;
+    margin-top:50px;
+}
+
+.nav-links{
+    display:none;
+}
+
+.menu-icon{
+    display:block;
+}
+
+}
+
+.about-container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.about-right h1{
+    font-size:36px;
+}

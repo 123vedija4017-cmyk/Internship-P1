@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Vedija Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- AOS CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+/>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar">
+
+            <div class="logo">
+                Vedija<span>.</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certifications.html">Certificates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="menu-icon">
+                <i class="ri-menu-3-line"></i>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="intro">Hello, I'm </p>
+
+            <h1>Vedija Patil</h1>
+
+            <h2>
+                <span id="typing-text"></span>
+            </h2>
+
+            <p class="description">
+                Passionate Web Developer, building AI-powered web solutions and data-driven dashboards.
+Seeking internship opportunities to apply skills in full-stack development, Power BI, SQL, and Python while learning
+industry-level best practices.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn primary-btn">
+                    View Projects
+                </a>
+
+               <a href="resume/resume.pdf"
+                    class="btn secondary-btn"
+                    target="_blank"
+                    download>
+
+                    Download Resume
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <div class="glass-circle"></div>
+
+            <img src="images/profile.jpeg" alt="Profile">
+
+        </div>
+
+    </section>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1000,
+once:true
+});
+</script>
+
+</body>
+</html>
